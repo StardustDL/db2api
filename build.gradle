@@ -1,0 +1,17 @@
+apply plugin: 'application'
+
+mainClassName = 'db2api.Application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'cn.hutool:hutool-all:5.5.5'
+
+//    implementation 'org.xerial:sqlite-jdbc:3.34.0'
+//    implementation 'mysql:mysql-connector-java:5.1.39'
+
+    implementation 'com.alibaba:fastjson:1.2.83'
+
+}

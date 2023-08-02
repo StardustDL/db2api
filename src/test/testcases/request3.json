@@ -1,0 +1,12 @@
+{
+    "method": "insert",
+    "name": "test_table_txx",
+    "user": {
+      "name": "Alice",
+      "password": "123456"
+    },
+    "value": {
+      "name": "name",
+      "comment": "Test from request3.json"
+    }
+  }

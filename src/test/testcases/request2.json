@@ -1,0 +1,12 @@
+{
+    "method": "insert",
+    "name": "test_table",
+    "user": {
+      "name": "Alice",
+      "password": "wrongpassword"
+    },
+    "value": {
+      "a": 1,
+      "b": 2
+    }
+  }

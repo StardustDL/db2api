@@ -1,0 +1,9 @@
+{
+    "method": "query",
+    "name": "test_table",
+    "user": {
+      "name": "Alice",
+      "password": "123456"
+    },
+    "cond": "name = 'name'"
+  }

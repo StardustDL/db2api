@@ -1,0 +1,53 @@
+{
+    "UserConfig": [
+        {
+            "name": "Alice",
+            "password": "123456",
+            "OperationConfig": [
+                {
+                    "table_name": "test_table",
+                    "add": true,
+                    "update": true,
+                    "delete": true,
+                    "get": true
+                },
+                {
+                    "table_name": "join_table",
+                    "add": true,
+                    "update": true,
+                    "delete": true,
+                    "get": true
+                }
+            ]
+        },
+        {
+            "name": "Bob",
+            "password": "654321",
+            "OperationConfig": [
+                {
+                    "table_name": "test_table",
+                    "add": false,
+                    "update": false,
+                    "delete": true,
+                    "get": true
+                }
+            ]
+        }
+    ],
+    "OperationConfig": [
+        {
+            "table_name": "test_table",
+            "add": true,
+            "delete": true,
+            "update": true,
+            "get": true
+        },
+        {
+            "table_name": "join_table",
+            "add": true,
+            "delete": true,
+            "update": true,
+            "get": true
+        }
+    ]
+}

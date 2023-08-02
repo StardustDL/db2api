@@ -1,0 +1,11 @@
+{
+    "method": "insert",
+    "name": "test_table_txx",
+    "user": {
+      "name": "Bob",
+      "password": "654321"
+    },
+    "value": {
+      "name": "name"
+    }
+  }

@@ -1,0 +1,13 @@
+{
+    "method": "update",
+    "name": "test_table",
+    "user": {
+      "name": "Alice",
+      "password": "123456"
+    },
+    "cond": "name = '张三'",
+    "value": {
+      "comment": "Update test from Request4.json",
+      "score": 2
+    }
+  }
